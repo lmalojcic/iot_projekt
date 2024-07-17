@@ -23,11 +23,11 @@ long reservedDuration = 30000;
 bool ledState = false; //LED state
 
 //Variables for WiFi and ThingsBoard
-constexpr char WIFI_SSID[] = "kuca";
-constexpr char WIFI_PASSWORD[] = "lovroivaklara";
+constexpr char WIFI_SSID[] = "";
+constexpr char WIFI_PASSWORD[] = "";
 
-constexpr char TOKEN[] = "4wF15HjJ9EYaGY8OLItU";
-constexpr char THINGSBOARD_SERVER[] = "161.53.19.19";
+constexpr char TOKEN[] = "";
+constexpr char THINGSBOARD_SERVER[] = "";
 constexpr uint16_t THINGSBOARD_PORT = 45883U;
 constexpr uint32_t MAX_MESSAGE_SIZE = 1024U;
 
